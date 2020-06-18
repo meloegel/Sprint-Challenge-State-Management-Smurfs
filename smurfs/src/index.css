@@ -2,4 +2,64 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background-image: url('./mushroom.jpg');
+  background-repeat: repeat;
+  background-size: cover;
+}
+#smurfs{
+  display: flex;
+  flex-direction: row;
+  width:80%;
+  margin: 0 auto;
+}
+
+.smurfCard{
+ 
+  padding: 1rem;
+  margin: 1rem 1rem;
+  border-radius: 2.5rem;
+  background-image: url('./Smurf_House.png');
+  background-position: bottom;
+  height: 29rem;
+  width: 100%;
+  background-size: cover;
+  
+}
+h1{
+  color: black;
+  border-radius: 2.5rem;
+  background-color: #88CCFF;
+  border: 2px solid black;
+  width:20%;
+  padding: 1rem;
+  margin: 2rem auto;
+}
+h2{
+  color: black;
+  border-radius: 2.5rem;
+  background-color: #88CCFF;
+  border: 2px solid black;
+  width:50%;
+  padding: 1rem;
+  margin: 2rem auto;
+}
+input {
+  display: flex;
+  margin: .5rem auto;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size:1.2rem;
+}
+input[type=text], select {
+  height: 1.5rem;
+}
+input[type=number], select {
+  height: 1.5rem;
+}
+button{
+  height:2rem;
+  background-color: #88CCFF;
+  border-radius: 2.5rem;
+  text-align: center;
+  padding: .5rem;
 }
